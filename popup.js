@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
         headers:{'X-AYLIEN-TextAPI-Application-Key':'8968137332783762d4117e8532aff787','X-AYLIEN-TextAPI-Application-ID':'ac9f0736'},
         dataType: 'json',
         type: 'POST',
-        data: {url: url, sentences_number:1,sentences_percentage:100}
+        data: {url: url, sentences_number:2,sentences_percentage:100}
       
       });
 
